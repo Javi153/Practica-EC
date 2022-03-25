@@ -1,0 +1,66 @@
+
+**** Build of configuration Debug for project BlinkLED_MSP430FR6989 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="C:/Users/javie/workspace_v11/BlinkLED_MSP430FR6989" --include_path="C:/Users/javie/workspace_v11/BlinkLED_MSP430FR6989/driverlib/MSP430FR5xx_6xx" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 80: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "BlinkLED_MSP430FR6989.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"BlinkLED_MSP430FR6989.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="BlinkLED_MSP430FR6989_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "BlinkLED_MSP430FR6989.out" "./main.obj" "./driverlib/MSP430FR5xx_6xx/adc12_b.obj" "./driverlib/MSP430FR5xx_6xx/aes256.obj" "./driverlib/MSP430FR5xx_6xx/comp_e.obj" "./driverlib/MSP430FR5xx_6xx/crc.obj" "./driverlib/MSP430FR5xx_6xx/crc32.obj" "./driverlib/MSP430FR5xx_6xx/cs.obj" "./driverlib/MSP430FR5xx_6xx/dma.obj" "./driverlib/MSP430FR5xx_6xx/esi.obj" "./driverlib/MSP430FR5xx_6xx/eusci_a_spi.obj" "./driverlib/MSP430FR5xx_6xx/eusci_a_uart.obj" "./driverlib/MSP430FR5xx_6xx/eusci_b_i2c.obj" "./driverlib/MSP430FR5xx_6xx/eusci_b_spi.obj" "./driverlib/MSP430FR5xx_6xx/framctl.obj" "./driverlib/MSP430FR5xx_6xx/gpio.obj" "./driverlib/MSP430FR5xx_6xx/lcd_c.obj" "./driverlib/MSP430FR5xx_6xx/mpu.obj" "./driverlib/MSP430FR5xx_6xx/mpy32.obj" "./driverlib/MSP430FR5xx_6xx/pmm.obj" "./driverlib/MSP430FR5xx_6xx/ram.obj" "./driverlib/MSP430FR5xx_6xx/ref_a.obj" "./driverlib/MSP430FR5xx_6xx/rtc_b.obj" "./driverlib/MSP430FR5xx_6xx/rtc_c.obj" "./driverlib/MSP430FR5xx_6xx/sfr.obj" "./driverlib/MSP430FR5xx_6xx/sysctl.obj" "./driverlib/MSP430FR5xx_6xx/timer_a.obj" "./driverlib/MSP430FR5xx_6xx/timer_b.obj" "./driverlib/MSP430FR5xx_6xx/tlv.obj" "./driverlib/MSP430FR5xx_6xx/wdt_a.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+warning #10420-D: For FRAM devices, at start up, the GPIO power-on default high-impedance mode needs to be disabled to activate previously configured port settings. This can be done by clearing the LOCKLPM5 bit in PM5CTL0 register.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "BlinkLED_MSP430FR6989.out"
+ 
+Building secondary target: "BlinkLED_MSP430FR6989.txt"
+Invoking: MSP430 Hex Utility
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "BlinkLED_MSP430FR6989.txt"  "BlinkLED_MSP430FR6989.out" 
+Translating to TI-TXT format...
+   "BlinkLED_MSP430FR6989.out" .text:_isr ==> .text:_isr
+   "BlinkLED_MSP430FR6989.out" .const ==> .const
+   "BlinkLED_MSP430FR6989.out" $fill000 ==> $fill000
+   "BlinkLED_MSP430FR6989.out" $fill001 ==> $fill001
+   "BlinkLED_MSP430FR6989.out" $fill002 ==> $fill002
+   "BlinkLED_MSP430FR6989.out" AES256 ==> AES256
+   "BlinkLED_MSP430FR6989.out" RTC ==> RTC
+   "BlinkLED_MSP430FR6989.out" LCD_C ==> LCD_C
+   "BlinkLED_MSP430FR6989.out" PORT4 ==> PORT4
+   "BlinkLED_MSP430FR6989.out" PORT3 ==> PORT3
+   "BlinkLED_MSP430FR6989.out" TIMER3_A1 ==> TIMER3_A1
+   "BlinkLED_MSP430FR6989.out" TIMER3_A0 ==> TIMER3_A0
+   "BlinkLED_MSP430FR6989.out" PORT2 ==> PORT2
+   "BlinkLED_MSP430FR6989.out" TIMER2_A1 ==> TIMER2_A1
+   "BlinkLED_MSP430FR6989.out" TIMER2_A0 ==> TIMER2_A0
+   "BlinkLED_MSP430FR6989.out" PORT1 ==> PORT1
+   "BlinkLED_MSP430FR6989.out" TIMER1_A1 ==> TIMER1_A1
+   "BlinkLED_MSP430FR6989.out" TIMER1_A0 ==> TIMER1_A0
+   "BlinkLED_MSP430FR6989.out" DMA ==> DMA
+   "BlinkLED_MSP430FR6989.out" USCI_B1 ==> USCI_B1
+   "BlinkLED_MSP430FR6989.out" USCI_A1 ==> USCI_A1
+   "BlinkLED_MSP430FR6989.out" TIMER0_A1 ==> TIMER0_A1
+   "BlinkLED_MSP430FR6989.out" TIMER0_A0 ==> TIMER0_A0
+   "BlinkLED_MSP430FR6989.out" ADC12 ==> ADC12
+   "BlinkLED_MSP430FR6989.out" USCI_B0 ==> USCI_B0
+   "BlinkLED_MSP430FR6989.out" USCI_A0 ==> USCI_A0
+   "BlinkLED_MSP430FR6989.out" ESCAN_IF ==> ESCAN_IF
+   "BlinkLED_MSP430FR6989.out" WDT ==> WDT
+   "BlinkLED_MSP430FR6989.out" TIMER0_B1 ==> TIMER0_B1
+   "BlinkLED_MSP430FR6989.out" TIMER0_B0 ==> TIMER0_B0
+   "BlinkLED_MSP430FR6989.out" COMP_E ==> COMP_E
+   "BlinkLED_MSP430FR6989.out" UNMI ==> UNMI
+   "BlinkLED_MSP430FR6989.out" SYSNMI ==> SYSNMI
+   "BlinkLED_MSP430FR6989.out" .reset ==> .reset
+   "BlinkLED_MSP430FR6989.out" .text ==> .text
+Finished building secondary target: "BlinkLED_MSP430FR6989.txt"
+ 
+
+**** Build Finished ****
