@@ -286,3 +286,32 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstud
 !ENTRY org.eclipse.core.net 4 0 2022-03-25 00:23:32.765
 !MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'Controlador no válido.
 ' #6.
+!SESSION 2022-03-25 01:02:16.971 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2022-03-25 01:02:37.485
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2022-03-25 01:02:37.528
+!MESSAGE debugServerDir=F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2022-03-25 01:03:29.131
+!MESSAGE CCS IDE session started!
+	CCS build: 11.1.0.00011
+	CCS location: F:/Universidad/Tercero/CodeComposer/ccs
+	Workspace location: F:/Universidad/Tercero/Practica-EC/workspace_v11 (previously: C:/Users/javie/workspace_v11)
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-03-25 01:03:30.766
+!MESSAGE CCS HTTP adapter started! [ccs.port:49939] - Open 'http://localhost:49939/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.core.net 4 0 2022-03-25 01:03:31.029
+!MESSAGE WinHttp.DetectAutoProxyConfigUrl for wpad failed with error 'No se encontró la dirección URL de configuración automática del proxy.
+' #12180.
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-03-25 01:03:53.720
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.ti.ccstudio.app.center.internal.CCSAppCenter$2
