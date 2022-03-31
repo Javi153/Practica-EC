@@ -2888,3 +2888,1034 @@ Finished building target: "Practica3_4.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 14: error #2552: invalid binary number
+"../main.c", line 15: error #19: extra text after expected end of number
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 48: error #66: expected a ";"
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_1" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Practica4_1.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_1.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 119: warning #169-D: argument of type "unsigned int" is incompatible with parameter of type "int *"
+"../main.c", line 119: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_2.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_2.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 121: warning #169-D: argument of type "unsigned int" is incompatible with parameter of type "int *"
+"../main.c", line 121: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_2.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_2.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 121: error #29: expected an expression
+"../main.c", line 121: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 121: warning #169-D: argument of type "unsigned int" is incompatible with parameter of type "int *"
+"../main.c", line 121: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_2.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_2.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_1 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 121: warning #169-D: argument of type "unsigned int" is incompatible with parameter of type "int *"
+"../main.c", line 121: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_2.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_2.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 121: warning #169-D: argument of type "unsigned int" is incompatible with parameter of type "unsigned int *"
+"../main.c", line 121: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_2.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_2.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 119: warning #1111-D: pragma vector can only be applied to a function definition, not "buffer" (declared at line 120)
+"../main.c", line 121: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 121: error #28: expression must have a constant value
+"../main.c", line 123: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 123: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_2.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_2.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 123: error #29: expected an expression
+"../main.c", line 123: error #20: identifier "i" is undefined
+"../main.c", line 127: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_2 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_2" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 125: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 125: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 128: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_2.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_2.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_3" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 53: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 115: error #20: identifier "UCRTIE" is undefined
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 145: error #171: expected a declaration
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_3" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 53: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 115: error #20: identifier "UCRTIE" is undefined
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_3" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 53: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_3.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_3.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_3_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_3.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_3.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_3" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 53: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 138: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 138: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 141: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 138: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 138: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 141: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_3.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_3.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_3_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_3.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_3.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_3" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 53: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 143: warning #69-D: integer conversion resulted in a change of sign
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_3.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_3.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_3_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_3.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_3.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Practica4_3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Practica4_3 ****
+
+"F:\\Universidad\\Tercero\\CodeComposer\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" --include_path="F:/Universidad/Tercero/Practica-EC/workspace_v11/Practica4_3" --include_path="F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 42: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 43: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 44: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 45: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 47: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 48: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 49: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 50: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 51: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 52: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 53: remark #2553-D: (ULP 14.1) Array index (involving "buffer") of type "int". Recommend using "unsigned int"
+"../main.c", line 143: warning #69-D: integer conversion resulted in a change of sign
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 127: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 130: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function ShowBuffer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "Practica4_3.out"
+Invoking: MSP430 Linker
+"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Practica4_3.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/include" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"F:/Universidad/Tercero/CodeComposer/ccs/ccs_base/msp430/lib/FR59xx" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"F:/Universidad/Tercero/CodeComposer/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Practica4_3_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Practica4_3.out" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10421-D: For FRAM devices running at higher than 8MHz, FRAM waitstate needs to be configured accordingly.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Practica4_3.out"
+ 
+
+**** Build Finished ****

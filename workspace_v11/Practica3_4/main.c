@@ -116,7 +116,7 @@ int main(void)
     TA0CCR0 = 40000;
     TA0CCTL0 = CCIE; // Habilita interrupción (bit CCIE)
 
-    _BIS_SR(LPM4_bits + GIE);
+    _BIS_SR(GIE);
     return 0;
 }
 
